@@ -110,7 +110,12 @@ export default class MapaChile extends Component{
 	}
 
 	click = id => {
-		console.log(id)
+		let {regiones} = this.state
+		regiones.map( ele => {
+			if(ele.id === id){
+				console.log(ele)
+			}
+		})
 	}
 
 	render(){
