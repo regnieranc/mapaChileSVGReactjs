@@ -1,0 +1,10 @@
+.region{
+	fill: black;
+	stroke: #aeaeae;
+	stroke-width: 0.5px;
+}
+
+.region:hover{
+	fill: #999999;
+	cursor: pointer;
+}
